@@ -84,7 +84,7 @@
                     "actions": {
                         "Contact_Info_Variable": {
                             "runAfter": {
-                                "DNS_Domain_Variable": [
+                                "Sentinel_Incident_Comment_Variable": [
                                     "Succeeded"
                                 ]
                             },
@@ -94,22 +94,6 @@
                                     {
                                         "name": "Contact Info",
                                         "type": "array"
-                                    }
-                                ]
-                            }
-                        },
-                        "DNS_Domain_Variable": {
-                            "runAfter": {
-                                "Sentinel_Incident_Comment_Variable": [
-                                    "Succeeded"
-                                ]
-                            },
-                            "type": "InitializeVariable",
-                            "inputs": {
-                                "variables": [
-                                    {
-                                        "name": "dnsdomain",
-                                        "type": "string"
                                     }
                                 ]
                             }
