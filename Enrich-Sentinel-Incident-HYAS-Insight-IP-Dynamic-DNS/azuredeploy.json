@@ -198,7 +198,7 @@
                                                     "inputs": {
                                                         "name": "Json Output",
                                                         "value": {
-                                                            "A_Record": "@items('Looping_Through_Response_Object')?['a_record']",
+                                                            "A Record": "@items('Looping_Through_Response_Object')?['a_record']",
                                                             "Created IP": "@items('Looping_Through_Response_Object')?['created_ip']",
                                                             "Domain Creator IP": "@items('Looping_Through_Response_Object')?['domain_creator_ip']",
                                                             "Email": "@items('Looping_Through_Response_Object')?['email']",
