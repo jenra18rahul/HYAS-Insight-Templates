@@ -156,7 +156,7 @@
                                                     "type": "SetVariable",
                                                     "inputs": {
                                                         "name": "Comment",
-                                                        "value": "@{concat(substring(body('Create_HTML_table'), 0, 2800), '...')}"
+                                                        "value": "@{concat(substring(body('Create_HTML_table'), 0, 29800), '...')}"
                                                     }
                                                 }
                                             },
@@ -170,7 +170,7 @@
                                                     {
                                                         "greater": [
                                                             "@length(body('Create_HTML_table'))",
-                                                            3000
+                                                            30000
                                                         ]
                                                     }
                                                 ]
